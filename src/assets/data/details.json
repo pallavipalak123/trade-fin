@@ -1,0 +1,157 @@
+[
+ [
+  {
+   "companyName":"BB Corporation",
+   "address":"Flat No.1,Hansalaya Building Barakhamba Road, Connaugh Place Delhi Pin 110001",
+   "pan":"11023DL21",
+   "gstin":"DELBB2014X"
+  },
+
+  {
+   "billTo":"BILL TO",
+   "companyName":"DD Enterprises",
+   "address":"Plot No. 32, Sec6 GN Road Near Police Choki Noida UP PIN 201130",
+   "gstin":"11023DUP43",
+   "pan":"UPNDDE2012X"
+  },
+
+  {
+   "shipTo":"SHIP TO",
+   "companyName":"DD Enterprise",
+   "address":"E-32, Rameshwar Nagar Near Basant Gali Delhi PIN 110032",
+   "gstin":"11023DDL13",
+   "pan":"UPNDDE2012X"
+  }
+ ],
+
+ [
+  {
+  "sno":"01",
+  "hsnCode":"85013410",
+  "descriptionOfService":"LED Lights",
+  "units":"PCs",
+  "qty":"24",
+  "rate":"600",
+  "totalAmount":"12,483.00",
+  "discount":"14%",
+  "taxableValunpm install -g @angular/clie":"12,483.00",
+  "ratePercent":"5%",
+  "amount":"450",
+  "ratepercent":"5%",
+  "amounts":"450",
+  "Ratepercent":"5%",
+  "Amount":"450"
+  },
+
+  {
+  "sno":"01",
+  "hsnCode":"85013410",
+  "descriptionOfService":"LED Lights",
+  "units":"PCs",
+  "qty":"24",
+  "rate":"600",
+  "totalAmount":"12,483.00",
+  "discount":"14%",
+  "taxableValue":"12,483.00",
+  "ratePercent":"5%",
+  "amount":"450",
+  "ratepercent":"5%",
+  "amounts":"450",
+  "Ratepercent":"5%",
+  "Amount":"450"
+  },
+  
+  {
+  "sno":"",
+  "hsnCode":"",
+  "descriptionOfService":"",
+  "units":"",
+  "qty":"",
+  "rate":"",
+  "totalAmount":"0.00",
+  "discount":"",
+  "taxableValue":"0.00",
+  "ratePercent":"",
+  "amount":"0.00",
+  "ratepercent":"",
+  "amounts":"0.00",
+  "Ratepercent":"",
+  "Amount":"0.00"
+  },
+
+  {
+  "sno":"",
+  "hsnCode":"",
+  "descriptionOfService":"",
+  "units":"",
+  "qty":"",
+  "rate":"FREIGHT:",
+  "totalAmount":"0.00",
+  "discount":"",
+  "taxableValue":"0.00",
+  "ratePercent":"",
+  "amount":"",
+  "ratepercent":"",
+  "amounts":"",
+  "Ratepercent":"",
+  "Amount":""
+  },
+
+  {
+  "sno":"",
+  "hsnCode":"",
+  "descriptionOfService":"",
+  "units":"",
+  "qty":"",
+  "rate":"INSURANCE:",
+  "totalAmount":"0.00",
+  "discount":"",
+  "taxableValue":"0.00",
+  "ratePercent":"",
+  "amount":"",
+  "ratepercent":"",
+  "amounts":"",
+  "Ratepercent":"",
+  "Amount":""
+  },
+
+  {
+  "sno":"",
+  "hsnCode":"",
+  "descriptionOfService":"",
+  "units":"",
+  "qty":"",
+  "rate":"PACKING & FORWARDING CHARGES/OTHERS:",
+  "totalAmount":"0.00",
+  "discount":"",
+  "taxableValue":"0.00",
+  "ratePercent":"",
+  "amount":"",
+  "ratepercent":"",
+  "amounts":"",
+  "Ratepercent":"",
+  "Amount":""
+  },
+
+  {
+  "sno":"",
+  "hsnCode":"",
+  "descriptionOfService":"",
+  "units":"",
+  "qty":"",
+  "rate":"TOTAL:",
+  "totalAmount":"24,966.00",
+  "discount":"",
+  "taxableValue":"24,966.00",
+  "ratePercent":"",
+  "amount":"",
+  "ratepercent":"",
+  "amounts":"",
+  "Ratepercent":"",
+  "Amount":""
+  }
+
+ ]
+
+]
+ 

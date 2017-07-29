@@ -1,0 +1,39 @@
+.address2{
+    float: right;
+}
+.address1{
+    float: left;
+}
+.colour1{
+    color: blue;
+}
+.colour2{
+    color: blue;
+}
+table, th, td {
+    border: 1px solid #D3D3D3;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #D3D3D3;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.setting{
+    margin: 25px;
+}
+.auto{
+    margin: 10px;
+}

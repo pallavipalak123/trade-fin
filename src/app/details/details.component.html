@@ -1,0 +1,166 @@
+
+
+<div class="setting">
+<h3>{{companyDetails.companyName1}}</h3>
+<p>{{companyDetails.address1}}</p>
+<p><strong>PAN:</strong>{{companyDetails.pan1}}<strong>GSTIN:</strong>{{companyDetails.gstin1}}</p>
+</div>
+<hr>
+
+<div class="auto">
+<div class="address1">
+  <p><strong class="colour1">{{companyDetails.billTo2}}</strong></p>
+  <p><strong>{{companyDetails.companyName2}}</strong></p>
+  <p>{{companyDetails.address2}}</p>
+  <p><strong>GSTIN:</strong>{{companyDetails.gstin2}}<strong>PAN:</strong>{{companyDetails.pan2}}</p>
+</div>
+
+<div class="address2">
+  <p><strong class="colour2">{{companyDetails.shipTo3}}</strong></p>
+  <p><strong>{{companyDetails.companyName3}}</strong></p>
+  <p>{{companyDetails.address3}}</p>
+  <p><strong>GSTIN:</strong>{{companyDetails.gstin3}}<strong>PAN:</strong>{{companyDetails.pan3}}</p>
+</div>
+
+<table style="width:100%">
+  <tr>
+    <th>S NO.</th>
+    <th>HSN CODE</th> 
+    <th>DESCRIPTION OF SERVICE</th>
+    <th>UNITS</th>
+    <th>QTY</th>
+    <th>RATE</th>
+    <th>TOTAL AMOUNT</th>
+    <th>DISCOUNT</th>
+    <th>TAXABLE VALUE</th>
+    <th>RATE</th>
+    <th>AMOUNT</th>
+    <th>RATE</th>
+    <th>AMOUNT</th>
+    <th>RATE</th>
+    <th>AMOUNT</th>
+  </tr>
+
+<tr *ngFor="let data of companyTable">
+    <td>{{data.sno}}</td>
+    <td>{{data.hsnCode}}</td>
+    <td>{{data.descriptionOfService}}</td>
+    <td>{{data.units}}</td>
+    <td>{{data.qty}}</td>
+    <td>{{data.rate}}</td>
+    <td>{{data.totalAmount}}</td>
+    <td>{{data.discount}}</td>
+    <td>{{data.taxableValue}}</td>
+    <td>{{data.ratePercent}}</td>
+    <td>{{data.amount}}</td>
+    <td>{{data.ratepercent}}</td>
+    <td>{{data.amounts}}</td>
+    <td>{{data.Ratepercent}}</td>
+    <td>{{data.Amount}}</td>
+  </tr>
+
+
+  <!--<tr>
+    <td>{{data.sno2}}</td>
+    <td>{{data.hsnCode2}}</td>
+    <td>{{data.descriptionOfService2}}</td>
+    <td>{{data.units2}}</td>
+    <td>{{data.qty2}}</td>
+    <td>{{data.rate2}}</td>
+    <td>{{data.totalAmoun2}}</td>
+    <td>{{data.discount2}}</td>
+    <td>{{data.taxableValue2}}</td>
+    <td>{{data.ratePercent2}}</td>
+    <td>{{data.amount2}}</td>
+    <td>{{data.ratepercent2}}</td>
+    <td>{{data.amounts2}}</td>
+    <td>{{data.Ratepercent2}}</td>
+    <td>{{data.Amount2}}</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>{{data.totalAmoun3}}</td>
+    <td></td>
+    <td>{{data.taxableValue3}}</td>
+    <td></td>
+    <td>{{data.amount3}}</td>
+    <td></td>
+    <td>{{data.amounts3}}</td>
+    <td></td>
+    <td>{{data.Amount3}}</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>FREIGHT:</td>
+    <td>{{data.totalAmoun4}}</td>
+    <td></td>
+    <td>{{data.taxableValue4}}</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>INSURANCE:</td>
+    <td>{{data.totalAmoun5}}</td>
+    <td></td>
+    <td>{{data.taxableValue5}}</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td colspan="6">PACKING AND FORWARDING CHARGES/OTHERS:vjhvhjvhvhjv</td>
+    <td>{{data.totalAmoun6}}</td>
+    <td></td>
+    <td>{{data.taxableValue6}}</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th></th>
+    <th></th> 
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>TOTAL:</th>
+    <th>{{data.totalAmoun7}}</th>
+    <th></th>
+    <th>{{data.taxableValue7}}</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>-->
+</table>
+</div>
